@@ -33,9 +33,55 @@
     </form>
 
     <!-- c=submit to youtube-->
+     <h3>Search Youtube</h3>
      <form action="https://www.youtube.com/results">
-        <input type="text" name="search_query">
+        <p>
+            <label for="search">Search: </label>
+            <input type="text" name="search_query" id="search">
+        </p>
+
         <button>Search Youtube</button>
+     </form>
+
+     <!--Radio button-->
+     <h3>Radio Button</h3>
+     <form action="">
+        <p>
+            <input type="radio" name="size" id="p" value="s">
+            <label for="p">Small</label>
+            
+
+            <p>
+                <input type="radio" name="size" id="q" value="m">
+                <label for="q">Medium</label>
+                
+            </p>
+           
+            <p>
+                <input type="radio" name="size" id="n" value="l">
+                <label for="n">Large</label>
+            </p>
+           
+            
+
+        </p>
+        <button>Submit</button>
+     </form>
+
+     <br>
+     <!--Dropdown Menu-->
+     <form action="">
+        <label for="meal"></label>
+        <select name="meal" id="meal">
+            <option value="o">--Please select an option--</option>
+            <option value="p">Milk</option>
+            <option value="e">Sugar</option>
+            <option value="r" selected>Honey</option>
+            <option value="x">Malt</option>
+        </select>
+        <br>
+        <br>
+        <button>Submit</button>
      </form>
 
 </body>
